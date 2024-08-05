@@ -42,6 +42,12 @@ This project demonstrates the usage of various state management properties in Sw
 1. Select your target device (iPhone or iPad simulator) in Xcode.
 2. Click the "Run" button (or press Command + R) to build and run the project.
 
+## Further Reading
+
+For more details on understanding variable types in SwiftUI, check out the article:
+[Understanding Variable Types in SwiftUI: Examples and Usages](https://medium.com/@dorangao/understanding-variable-types-in-swiftui-examples-and-usages-a-practical-guide-to-ios-swiftui-app-7e12dbd6f1d3)
+
+
 ## License
 
 This project is licensed under the MIT License. See the [MITLicense.md](MITLicense.md) file for details.
