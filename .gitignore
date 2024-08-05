@@ -1,0 +1,68 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+Packages/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.xcworkspace
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Accio dependency manager
+Dependencies/
+.accio/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+ci/
+
+# App specific
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcshareddata/xcschemes/
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+!*.xcworkspace/xcshareddata/xcschemes/
+
+# Other
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.crash
+*.log
+*.releasable
+*.release/
+
+# Provisioning profiles
+*.mobileprovision
+*.provisionprofile
+
+# Archived files
+*.xcarchive
+
+# Swift PM
+.swiftpm/xcode
+
+# Swift
+*.swiftsourceinfo
+
+# User settings
+*.xcuserstate

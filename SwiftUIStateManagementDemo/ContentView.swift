@@ -45,7 +45,17 @@ struct ContentView: View {
                 Spacer()
             }
             .padding()
-            .navigationTitle("SwiftUI State Management")
+            .navigationTitle("") // Empty title to avoid conflict
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Text("SwiftUI State Management")
+                        .font(.title)
+                        .bold()
+                        .foregroundColor(.primary)
+                        .padding(.vertical)
+                }
+            }
+            
         }
         .environmentObject(Settings())
     }
