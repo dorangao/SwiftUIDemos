@@ -17,7 +17,6 @@
 		2AF72A612C6088290049D6EE /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF72A602C6088290049D6EE /* UserData.swift */; };
 		2AF72A632C6088480049D6EE /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF72A622C6088480049D6EE /* Settings.swift */; };
 		2AF72A652C60885E0049D6EE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF72A642C60885E0049D6EE /* DetailView.swift */; };
-		2AF72A692C608E220049D6EE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2AF72A682C608E220049D6EE /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,9 +50,6 @@
 		2AF72A602C6088290049D6EE /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		2AF72A622C6088480049D6EE /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		2AF72A642C60885E0049D6EE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		2AF72A662C6088930049D6EE /* MITLicense.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MITLicense.md; sourceTree = "<group>"; };
-		2AF72A672C608D3C0049D6EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		2AF72A682C608E220049D6EE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +80,6 @@
 		2AF72A2A2C6087EC0049D6EE = {
 			isa = PBXGroup;
 			children = (
-				2AF72A682C608E220049D6EE /* .gitignore */,
-				2AF72A672C608D3C0049D6EE /* README.md */,
-				2AF72A662C6088930049D6EE /* MITLicense.md */,
 				2AF72A352C6087EC0049D6EE /* SwiftUIStateManagementDemo */,
 				2AF72A462C6087ED0049D6EE /* SwiftUIStateManagementDemoTests */,
 				2AF72A502C6087ED0049D6EE /* SwiftUIStateManagementDemoUITests */,
@@ -248,7 +241,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AF72A3E2C6087ED0049D6EE /* Preview Assets.xcassets in Resources */,
-				2AF72A692C608E220049D6EE /* .gitignore in Resources */,
 				2AF72A3B2C6087ED0049D6EE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
