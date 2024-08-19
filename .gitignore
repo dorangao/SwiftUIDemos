@@ -66,3 +66,7 @@ ci/
 
 # User settings
 *.xcuserstate
+
+*/.idea/
+
+

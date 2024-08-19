@@ -49,6 +49,7 @@
 		2A88BF9D2C72AE870092543E /* TextToSpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeechManager.swift; sourceTree = "<group>"; };
 		2A88BF9F2C72AEA90092543E /* SppeechRecognizerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SppeechRecognizerManager.swift; sourceTree = "<group>"; };
 		2A88BFA12C72AFAD0092543E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A88BFA32C72F7210092543E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		2A88BF672C72AE620092543E = {
 			isa = PBXGroup;
 			children = (
+				2A88BFA32C72F7210092543E /* README.md */,
 				2A88BFA12C72AFAD0092543E /* Info.plist */,
 				2A88BF722C72AE620092543E /* SpeechDemoApp */,
 				2A88BF832C72AE630092543E /* SpeechDemoAppTests */,
