@@ -3,27 +3,22 @@ import SwiftUI
 struct ContentView: View {
     @StateObject private var ttsManager = TextToSpeechManager()
     @StateObject private var sttManager = SpeechRecognizerManager()
-    
+
     var body: some View {
         NavigationView {
             VStack(spacing: 20) {
                 Text("SpeechDemo")
                     .font(.largeTitle)
                     .bold()
-                
+
                 TextEditor(text: $sttManager.recognizedText)
                     .border(Color.gray, width: 1)
                     .frame(height: 150)
                     .padding()
-                
+
                 HStack(spacing: 20) {
                     Button(action: {
-                        if sttManager.isRecording {
-                            sttManager.stopRecording()
-                        } else {
-                            sttManager.requestSpeechAuthorization()
-                            sttManager.startRecording()
-                        }
+                        sttManager.isRecording ? sttManager.stopRecording() : sttManager.startRecording()
                     }) {
                         Text(sttManager.isRecording ? "Stop Recording" : "Start Recording")
                             .padding()
@@ -31,7 +26,7 @@ struct ContentView: View {
                             .foregroundColor(.white)
                             .cornerRadius(10)
                     }
-                    
+
                     Button(action: {
                         ttsManager.speak(text: sttManager.recognizedText)
                     }) {
@@ -42,7 +37,7 @@ struct ContentView: View {
                             .cornerRadius(10)
                     }
                 }
-                
+
                 Spacer()
             }
             .padding()
